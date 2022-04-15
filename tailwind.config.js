@@ -8,11 +8,12 @@ module.exports = {
   ],
   theme: {
     extend: {
-      color: {
+      colors: {
         penito: {
           black: "#122025",
           white: "#F8FBFB",
           gray: "#58666B",
+          "gray-bg": "#FAFAFA",
           yellow: "#F2C229",
           "yellow-light": "#FDD835",
           blue: "#0EBFDD",

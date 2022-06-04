@@ -1,3 +1,4 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
 module.exports = {
   content: [
     "./components/**/*.{js,vue,ts}",
@@ -28,7 +29,8 @@ module.exports = {
         montserrat: ["Montserrat", "sans-serif"],
       },
       screens: {
-        xs: "480px",
+        xs: "475px",
+        ...defaultTheme.screens,
       },
     },
   },

@@ -1,6 +1,6 @@
 <template>
   <div class="flex items-center justify-between max-w-6xl mx-auto py-6 px-4">
-    <div class="flex items-center space-x-2">
+    <div class="flex items-center space-x-2 cursor-pointer">
       <img src="@/assets/images/icons/penito-icon.svg" alt="" />
       <h1 class="font-semibold text-2xl lg:text-[2rem] text-penito-black">
         Penito

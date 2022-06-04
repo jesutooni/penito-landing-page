@@ -1,5 +1,5 @@
 <template>
-  <div class="py-24 px-4 bg-white max-w-6xl mx-auto">
+  <section class="py-24 px-4 bg-white max-w-6xl mx-auto">
     <h1
       class="font-semibold text-2xl md:text-4xl text-penito-black text-center"
     >
@@ -14,7 +14,7 @@
         :src="require(`@/assets/images/logos/${partner}.svg`)"
       />
     </div>
-  </div>
+  </section>
 </template>
 
 <script>

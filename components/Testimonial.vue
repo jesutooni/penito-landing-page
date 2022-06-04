@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-penito-gray-bg py-16 px-4">
+  <section class="bg-penito-gray-bg py-16 px-4">
     <div class="max-w-6xl mx-auto flex items-center justify-between gap-5">
       <div class="max-w-lg md:max-w-md lg:max-w-[594px]">
         <h1 class="text-[1.75rem] text-penito-black font-semibold">
@@ -22,5 +22,5 @@
         <img src="@/assets/images/testimonial-room-image.svg" alt="" />
       </div>
     </div>
-  </div>
+  </section>
 </template>

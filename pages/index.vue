@@ -2,6 +2,7 @@
   <div>
     <Testimonial />
     <Partners />
+    <Gallery />
   </div>
 </template>
 

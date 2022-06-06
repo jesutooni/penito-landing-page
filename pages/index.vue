@@ -1,9 +1,10 @@
 <template>
-  <div>
+  <main>
+    <Services />
     <Testimonial />
     <Partners />
     <Gallery />
-  </div>
+  </main>
 </template>
 
 <script>

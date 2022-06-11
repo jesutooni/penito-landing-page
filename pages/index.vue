@@ -1,5 +1,6 @@
 <template>
   <main>
+    <Products />
     <Services />
     <Testimonial />
     <Partners />

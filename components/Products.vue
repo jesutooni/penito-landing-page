@@ -25,7 +25,7 @@
       </div>
     </div>
 
-    <div class="mt-10 grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-5 lg:gap-7 xl:gap-9">
+    <div class="mt-10 grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-5 lg:gap-7 xl:gap-9">
       <div
         v-for="(product, index) in products"
         :key="index"

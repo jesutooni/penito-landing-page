@@ -24,6 +24,12 @@
         <img class="h-[512px]" src="@/assets/images/services-image.svg" alt="" />
       </div>
     </div>
+
+    <button
+        class="mt-9 text-penito-white bg-penito-blue-dark py-2.5 px-8 rounded-full"
+      >
+        Know more
+      </button>
   </section>
 </template>
 

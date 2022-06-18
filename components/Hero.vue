@@ -1,6 +1,6 @@
 <template>
   <section class="max-w-6xl mx-auto md:flex items-center py-10 px-4">
-    <div class="space-y-11">
+    <div class="space-y-11 text-center md:text-left">
       <h1 class="capitalize text-3xl font-medium">
         Discover
         <span class="text-penito-yellow font-bold">The Best</span> Furniture for
@@ -10,9 +10,9 @@
         We design pieces of furniture and objects that perfectly gap between
         Beauty and functionality
       </p>
-      <div class="flex gap-14 text-center md:text-left">
+      <div class="flex justify-center md:justify-start gap-7 sm:gap-10 lg:gap-14">
         <button
-          class="px-8 py-4 text-white bg-penito-blue-dark rounded-lg font-semibold text-lg flex items-center gap-3.5"
+          class="px-3 sm:px-8 py-4 text-white bg-penito-blue-dark rounded-lg font-semibold text-sm sm:text-lg flex items-center gap-3.5"
         >
           Shop Now
           <div
@@ -47,9 +47,9 @@
 
         <!-- <div class="w-8 h-8 rounded-full border-l-4 border-penito-yellow"></div> -->
 
-        <button class="flex items-center gap-5 font-semibold text-lg">
+        <button class="flex items-center gap-5 font-semibold text-sm sm:text-lg">
           <div
-            class="w-9 h-9 rounded-full flex justify-center items-center play"
+            class="w-9 h-9 rounded-full hidden sm:flex md:hidden lg:flex justify-center items-center play"
           >
             <svg
               width="14px"
@@ -70,7 +70,7 @@
       </div>
     </div>
 
-    <div class="flex gap-3 w-full">
+    <div class="md:flex gap-3 w-full hidden">
       <div class="self-end">
         <img src="@/assets/images/hero-two.svg" alt="" />
       </div>

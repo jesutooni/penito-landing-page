@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'penito-landing-page',
+    title: 'Penito Furnitures',
     htmlAttrs: {
       lang: 'en'
     },
